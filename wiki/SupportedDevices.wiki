@@ -1,0 +1,23 @@
+#summary This page give an overview of which devices and rom are compatibles with CSipSimple.
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+Since current port of pjsip use private C API for audiodev driver, a build of the sip stack has to be done for each android SDK version (and sometimes if the manufacturer of your device has implemented it's own media API, it has to be recompiled for this specific manufacturer).
+
+
+= Supported ROM =
+
+  * All opensource based ROM from 1.5 to 2.1.
+  * Archos 5IT android 1.6 ROM
+
+* Note: * It's recommanded to disable echo cancellation if you use android 1.5.
+
+= Tested devices =
+
+Here are tested and running devices :
+  * Nexus ONE (android 2.1)
+  * HTC Magic (android 1.6)
+  * Archos 5IT (android 1.6)
+  * HTC Hero (android 1.5)
+  * Samsung Galaxy (android 1.5)
