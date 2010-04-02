@@ -1,4 +1,4 @@
-/* $Id: sock_common.c 3124 2010-03-27 03:11:04Z bennylp $ */
+/* $Id: sock_common.c 3133 2010-03-30 13:31:22Z bennylp $ */
 /* 
  * Copyright (C) 2008-2009 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>
@@ -701,8 +701,8 @@ PJ_DEF(pj_status_t) pj_gethostip(int af, pj_sockaddr *addr)
 	WEIGHT_HOSTNAME	= 1,	/* hostname IP is not always valid! */
 	WEIGHT_DEF_ROUTE = 2,
 	WEIGHT_INTERFACE = 1,
-	WEIGHT_LOOPBACK = -4,
-	WEIGHT_LINK_LOCAL = -3,
+	WEIGHT_LOOPBACK = -5,
+	WEIGHT_LINK_LOCAL = -4,
 	WEIGHT_DISABLED = -50,
 
 	MIN_WEIGHT = WEIGHT_DISABLED+1	/* minimum weight to use */
