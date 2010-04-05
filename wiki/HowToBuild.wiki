@@ -50,7 +50,7 @@ You can find your build under
 apps/pjsip/project/libs/armeabi/android-4
 }}}
 
-_* Note :* You can list currently available target using : 
+_* Note :* You can list currently available target using : _
 {{{
 ls build/platforms/
-}}} _
+}}}
