@@ -10,36 +10,38 @@ Create a new directory for the project.
 
 I have not committed into the svn the compiler, linker etc for android. So you'll have to get them from the official ndk and then to include them into the project.
 
-First of all get the ndk and unzip
+ * First of all get the ndk and unzip
 {{{
 wget http://dl.google.com/android/ndk/android-ndk-r3-linux-x86.zip
 unzip android-ndk-r3-linux-x86.zip
 rm android-ndk-r3-linux-x86.zip
 }}}
 
-Then checkout the pjsip part of the project :
+ * Then checkout the pjsip part of the project :
 {{{
 svn checkout http://csipsimple.googlecode.com/svn/trunk/pjsip_android pjsip_android
 }}}
 
-Now we have to add the ndk toolchains into the pjsip_android project ndk.
+ * Now we have to add the ndk toolchains into the pjsip_android project ndk.
 {{{
 cp -r android-ndk-r3/build/prebuilt pjsip_android/build/
 }}}
+_ Note : You can now delete the android-ndk-r3 folder _
 
-Now go into the pjsip_android directory and initialize the ndk:
+
+ * Go into the pjsip_android directory and initialize the ndk:
 {{{
 cd pjsip_android
 ./build/host-setup.sh
 }}}
 
-And now you have two options.
- * Launch a make (but it will generate only one target lib)
+ * And now you have two options.
+   * Launch a make (but it will generate only one target lib)
 {{{
 make APP=pjsip APP_PLATFORM=android-4
 }}}
 _(you can replace android-4 by the target you want to build for)_
- * Launch a shell script I wrote that will automatically make all targets for you.
+   * Launch a shell script I wrote that will automatically make all targets for you.
 {{{
 ./build_release.sh
 }}}
