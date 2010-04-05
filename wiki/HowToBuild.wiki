@@ -81,5 +81,6 @@ Checkout the csipsimple directory (under trunk) from the source. (You can use [h
 
 
 = Important informations =
-If you want to use the emulator to run your application, you have to be sure you are using the corresponding .so.
-(I'm not sure, but I think that the underlying libmedia version of the sdk emulator doesn't vary with the target version you choose). _(I mean : the java library version and the native library version can differ)_
+If you want to use the emulator to run your application, you have to be sure you are using the corresponding .so.<br/>
+_I'm not sure, but I think that the underlying libmedia version of the sdk emulator doesn't vary with the target version you choose.<br/>
+(I mean : the java library version and the native library version can differ)_
