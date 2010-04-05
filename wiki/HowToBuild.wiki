@@ -40,7 +40,7 @@ cd pjsip_android
 {{{
 make APP=pjsip APP_PLATFORM=android-4
 }}}
-_(you can replace android-4 by the target you want to build for)_
+     _(you can replace android-4 by the target you want to build for)_
    * Launch a shell script I wrote that will automatically make all targets for you.
 {{{
 ./build_release.sh
