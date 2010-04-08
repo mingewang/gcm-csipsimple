@@ -8,17 +8,20 @@ Since current port of pjsip use private C API for audiodev driver, a build of th
 
 = Supported ROM =
 
-  * All opensource based ROM from 1.6 to 2.1.
+  * All opensource based ROM from 1.5 to 2.1.
   * Archos 5IT android 1.6 ROM
 
+(Note that 1.5 android users should disable echo cancellation)
 
 = Tested devices =
 
 Here are tested and running devices :
   * Nexus ONE (android 2.1)
+  * HTC Legend (android 2.1)
   * HTC Magic (android 1.6)
   * Archos 5IT (android 1.6)
-
-Not supported : android 1.5 (due to java sdk incompatibility; i'm currently trying to fix it)
   * HTC Hero (android 1.5)
   * Samsung Galaxy (android 1.5)
+
+= Known incompatibility =
+  * Samsung Spica (android 2.1)
