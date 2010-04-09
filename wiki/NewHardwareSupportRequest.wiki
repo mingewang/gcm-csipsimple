@@ -1,0 +1,19 @@
+#summary This page explain how to give us needed stuff if you want us to support a new hardware
+#labels Phase-Support,Featured
+
+
+= Introduction =
+
+Some manufacturer rewrite the libmedia libcutils or libutils. If this is the case, specific binaries for the manufacturer will be needed.
+
+To allow us to make a custom compilation for this kind of hardware, there is now a simple way to contribute and help us.
+
+= How to report your libs for your unsupported hardware=
+
+ * [http://csipsimple.googlecode.com/files/MediaLibGet.apk Download the apk here].
+
+ * Install it
+
+ * Run it and choose send mail (use your favorite mail account). Then just click on send.
+
+Once the lib will be compiled, you'll be notified that a new build for your hardware is available. If you don't want to be contacted for beta-testing the new build for your device, let us know in the body of the mail (before information on your android and hardware version).
