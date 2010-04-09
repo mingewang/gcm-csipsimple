@@ -25,3 +25,7 @@ Here are tested and running devices :
 
 = Known incompatibility =
   * Samsung Spica (android 2.1)
+
+= How can I help if my hardware is not compatible =
+It's possible to help us if your hardware is not yet supported.
+See the instructions on the NewHardwareSupportRequest page.
