@@ -22,9 +22,9 @@ Here are tested and running devices :
   * Archos 5IT (android 1.6)
   * HTC Hero (android 1.5)
   * Samsung Galaxy (android 1.5)
+  * Samsung Spica (android 2.1)
 
 = Known incompatibility =
-  * Samsung Spica (android 2.1)
 
 = How can I help if my hardware is not compatible =
 It's possible to help us if your hardware is not yet supported.
