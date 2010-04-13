@@ -10,7 +10,6 @@ To allow us to make a custom compilation for this kind of hardware, there is now
 
 = Already fixed but not yet released =
 If you are about to report check that your device in not in this list (are already fixed but not yet released) :
- * Samsung Spica (I5700) android 2.1 (thanks goes to Sebastien P.)
 
 
 = How to report your libs for your unsupported hardware=
