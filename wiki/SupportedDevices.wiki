@@ -23,8 +23,10 @@ Here are tested and running devices :
   * HTC Hero (android 1.5)
   * Samsung Galaxy (android 1.5)
   * Samsung Spica (android 2.1)  (thanks goes to Sebastien P.)
+  * HTC Tatoo (android 1.6)
 
 = Known incompatibility =
+ * The Robot from Chinavasion, Android 1.5 (need a NewHardwareSupportRequest !)
 
 = How can I help if my hardware is not compatible =
 It's possible to help us if your hardware is not yet supported.
