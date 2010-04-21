@@ -21,12 +21,14 @@ Here are tested and running devices :
   * HTC Magic (android 1.6)
   * Archos 5IT (android 1.6)
   * HTC Hero (android 1.5)
-  * Samsung Galaxy (android 1.5)
-  * Samsung Spica (android 2.1)  (thanks goes to Sebastien P.)
+  * Samsung Galaxy i7500 (android 1.5)
+  * Samsung Spica i5700 (android 2.1)  (thanks goes to Sebastien P.)
   * HTC Tatoo (android 1.6)
 
 = Known incompatibility =
- * The Robot from Chinavasion, Android 1.5 (need a NewHardwareSupportRequest !)
+ * The Robot from Chinavasion, Android 1.5 (armv4)
+ * All armv4 based devices
+ * Samsung Galaxy (android 1.6)
 
 = How can I help if my hardware is not compatible =
 It's possible to help us if your hardware is not yet supported.
