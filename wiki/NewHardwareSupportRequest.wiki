@@ -10,9 +10,16 @@ To allow us to make a custom compilation for this kind of hardware, there is now
 
 = Already fixed but not yet released =
 If you are about to report check that your device in not in this list (are already fixed but not yet released) :
+Samsung Galaxy i7500 android 1.6
 
+
+= Known unsupportable devices =
+ * For now, there is no way to make a build for ARMv4 devices. 
+(Android NDK doesn't support that and I have to make some changes to enable it)
 
 = How to report your libs for your unsupported hardware=
+
+== You have a device running with android 1.6 or later (and with a mail application that support application/binary attachement configured)
 
  * [http://csipsimple.googlecode.com/files/MediaLibGet.apk Download the apk here].
 
@@ -21,3 +28,17 @@ If you are about to report check that your device in not in this list (are alrea
  * Run it and choose send mail (use your favorite mail account). Then just click on send.
 
 Once the lib will be compiled, you'll be notified that a new build for your hardware is available. If you don't want to be contacted for beta-testing the new build for your device, let us know in the body of the mail (before information on your android and hardware version).
+
+== You are running android 1.5 ==
+
+You have to use the SDK (if you have no idea of what that means, don't try to do the following instructions, just open a new issue in the bug tracker).
+
+Launch : 
+{{{
+adb pull /system/lib/libmedia.so
+adb pull /system/lib/libutils.so
+adb pull /system/lib/libcutils.so
+}}}
+
+Open an issue on the tracker and attach these three files you just uploaded.
+(You can also use an Android file manager application to save this file on your hard disk).
