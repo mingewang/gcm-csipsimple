@@ -19,7 +19,7 @@ Samsung Galaxy i7500 android 1.6
 
 = How to report your libs for your unsupported hardware=
 
-== You have a device running with android 1.6 or later (and with a mail application that support application/binary attachement configured)
+== You have a device running with android 1.6 or later (and with a mail application that support application/binary attachement configured) ==
 
  * [http://csipsimple.googlecode.com/files/MediaLibGet.apk Download the apk here].
 
