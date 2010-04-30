@@ -19,8 +19,7 @@
 
     <!-- Target DIV -->
     <div id="video-wrapper">
-      <video id="video-tag" controls="true" preload="none">
-	<source id="video-source" type="video/ogg"/>
+      <video id="video-tag" controls="true" src="http://csipsimple.googlecode.com/svn/res/csipsimple_first_page.ogv">
 	Your browser does not support the <code>video</code> element. 
       </video>
     </div>
@@ -29,10 +28,9 @@
     <script id="gadget-source" type="text/javascript">
 	(function(){
 		var prefs=new _IG_Prefs();
-		var video_tag = document.getElementById("video-source");
+		var video_tag = document.getElementById("video-tag");
 		video_tag.setAttribute("src", prefs.getString("videoSrc"));
-		console.log(prefs.getString("videoSrc"));
-		document.getElementById("video-tag").load();
+		video_tag.load();
 	})();
     ]]>
   </Content>
