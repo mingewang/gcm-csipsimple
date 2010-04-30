@@ -19,14 +19,16 @@
 
     <!-- Target DIV -->
     <div id="video-wrapper">
-      <video id="video-tag" controls="true" src=""></video>
+      <video id="video-tag" controls="true">
+	<source id="video-source" type="video/ogg"/>
+      </video>
     </div>
 
 
     <script id="gadget-source" type="text/javascript">
 	(function(){
 		var prefs=new _IG_Prefs();
-		var video_tag = document.getElementById("video-tag");
+		var video_tag = document.getElementById("video-source");
 		video_tag.setAttribute("src", prefs.getString("videoSrc"));
 		console.log(prefs.getString("videoSrc"));
 		video_tag.load();
