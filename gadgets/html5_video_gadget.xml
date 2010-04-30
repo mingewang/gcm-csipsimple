@@ -10,7 +10,7 @@
   </ModulePrefs>
 
   <UserPref name="videoSrc" display_name="Video source" datatype="hidden"
-    default_value=""/>
+    default_value="http://csipsimple.googlecode.com/svn/res/csipsimple_first_page.ogv"/>
 
 
   <Content type="html">
