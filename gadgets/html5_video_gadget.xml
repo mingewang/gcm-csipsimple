@@ -10,7 +10,7 @@
   </ModulePrefs>
 
   <UserPref name="videoSrc" display_name="Video source" datatype="hidden"
-    default_value="http://csipsimple.googlecode.com/svn/res/csipsimple_first_page.ogv"/>
+    default_value="http://www.r3gis.fr/android_datas/android_screencast.ogv"/>
 
 
   <Content type="html">
@@ -19,7 +19,7 @@
 
     <!-- Target DIV -->
     <div id="video-wrapper">
-      <video id="video-tag" controls="true" src="">
+      <video id="video-tag" controls="true" src="http://www.r3gis.fr/android_datas/android_screencast.ogv">
 	Your browser does not support the <code>video</code> element. 
       </video>
     </div>
