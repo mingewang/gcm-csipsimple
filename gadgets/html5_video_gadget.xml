@@ -31,7 +31,7 @@
 		var video_tag = document.getElementById("video-source");
 		video_tag.setAttribute("src", prefs.getString("videoSrc"));
 		console.log(prefs.getString("videoSrc"));
-		video_tag.load();
+		document.getElementById("video-tag").load();
 	})();
     ]]>
   </Content>
