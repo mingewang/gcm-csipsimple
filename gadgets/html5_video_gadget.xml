@@ -19,8 +19,9 @@
 
     <!-- Target DIV -->
     <div id="video-wrapper">
-      <video id="video-tag" controls="true">
+      <video id="video-tag" controls="true" preload="none">
 	<source id="video-source" type="video/ogg"/>
+	Your browser does not support the <code>video</code> element. 
       </video>
     </div>
 
