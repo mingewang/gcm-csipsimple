@@ -28,7 +28,7 @@
 		var prefs=new _IG_Prefs();
 		var video_tag = document.getElementById("video-tag");
 		video_tag.setAttribute("src", prefs.getString("videoSrc"));
-		alert(prefs.getString("videoSrc"));
+		console.log(prefs.getString("videoSrc"));
 		video_tag.load();
 	})();
     ]]>
