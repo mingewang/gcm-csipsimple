@@ -18,7 +18,8 @@ Since current port of pjsip use private C API for audiodev driver, a build of th
 Here are tested and running devices :
   * Nexus ONE (android 2.1)
   * HTC Legend (android 2.1)
-  * HTC Magic (android 1.6)
+  * HTC Sapphire (Magic) (android 1.6)
+  * HTC Sapphire (Magic) (android 2.1)
   * Archos 5IT (android 1.6)
   * HTC Hero (android 1.5)
   * Samsung Galaxy i7500 (android 1.5)
