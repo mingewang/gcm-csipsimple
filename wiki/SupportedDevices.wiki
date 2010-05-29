@@ -1,36 +1,23 @@
-#summary This page give an overview of which devices and rom are compatibles with CSipSimple.
+#summary This page give an overview of which devices and rom are tested with CSipSimple.
 #labels Featured,Phase-Deploy
 
 = Introduction =
 
-Since current port of pjsip use private C API for audiodev driver, a build of the sip stack has to be done for each android SDK version (and sometimes if the manufacturer of your device has implemented it's own media API, it has to be recompiled for this specific manufacturer).
+The audio driver is now based on a method that is a little bit more official (using java api).
+So it should now work on almost all devices, but here is the list of the tested devices :
 
-
-= Supported ROM =
-
-  * All opensource based ROM from 1.5 to 2.1.
-  * Archos 5IT android 1.6 ROM
-
-(Note that 1.5 android users should disable echo cancellation)
 
 = Tested devices =
 
 Here are tested and running devices :
-  * Nexus ONE (android 2.1)
+  * Nexus ONE (android 2.1 to 2.2)
+  * HTC Desire (android 2.1)
   * HTC Legend (android 2.1)
-  * HTC Sapphire (Magic) (android 1.6)
-  * HTC Sapphire (Magic) (android 2.1)
-  * Archos 5IT (android 1.6)
+  * HTC Sapphire (Magic) (android 1.5 to 2.1)
   * HTC Hero (android 1.5)
-  * Samsung Galaxy i7500 (android 1.5)
-  * Samsung Spica i5700 (android 2.1)  (thanks goes to Sebastien P.)
-  * HTC Tatoo (android 1.6)
 
 = Known incompatibility =
  * The Robot from Chinavasion, Android 1.5 (armv4)
  * All armv4 based devices
- * Samsung Galaxy (android 1.6)
-
-= How can I help if my hardware is not compatible =
-It's possible to help us if your hardware is not yet supported.
-See the instructions on the NewHardwareSupportRequest page.
+ * Samsung Galaxy i7500 (android 1.5) - deadlocks are presents. (especially with dialtone) 
+ * Archos 5IT (android 1.6) (the legacy library is use to bypass jni errors.)
