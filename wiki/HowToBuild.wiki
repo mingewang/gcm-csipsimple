@@ -75,8 +75,3 @@ The project is compatible with android 1.5 but different layout support is avail
 
 Then you can launch the project using run (and choose your remote device or a virtual device _(emulator)_).
 If you experiments problems at first run use _Project > Clean ..._
-
-= Important informations =
-If you want to use the emulator to run your application, you have to be sure you are using the corresponding .so.<br/>
-_I'm not sure, but I think that the underlying libmedia version of the sdk emulator doesn't vary with the target version you choose.<br/>
-(I mean : the java library version and the native library version can differ)_
