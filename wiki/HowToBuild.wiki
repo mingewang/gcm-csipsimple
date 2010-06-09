@@ -47,8 +47,7 @@ _ Note : You can now delete the android-ndk-r4 folder _
 cd pjsip_android
 }}}
 
- * And now you have two options.
-   * Launch a make (but it will generate only one target lib)
+ * Launch a make (but it will generate only one target lib)
 {{{
 make APP=pjsip
 }}}
