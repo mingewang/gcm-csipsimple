@@ -56,7 +56,7 @@ Congratulation you've just build the dynamic library.
 You can find your build under 
 
 {{{
-apps/pjsip/project/libs/armeabi/android-4
+apps/pjsip/project/libs/armeabi/android-3
 }}}
 
 
