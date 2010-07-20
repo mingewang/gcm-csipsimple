@@ -6,6 +6,7 @@
 The audio driver is now based on a method that is a little bit more official (using java api).
 So it should now work on almost all devices, but here is the list of the tested devices :
 
+Current values are for 0.00-12-3 available on the download section :
 
 = Tested devices =
 
@@ -13,11 +14,21 @@ Here are tested and running devices :
   * Nexus ONE (android 2.1 to 2.2)
   * HTC Desire (android 2.1)
   * HTC Legend (android 2.1)
-  * HTC Sapphire (Magic) (android 1.5 to 2.1)
+  * HTC Sapphire/Magic (android 1.5 to 2.1)
   * HTC Hero (android 1.5)
+  * HTC EVO
+  * HTC Incredible
+  * Archos 5IT (android 1.6) (the legacy library is use to bypass jni errors.)
+  * Acer Liquid (s100) (android 2.1)
+
 
 = Known incompatibility =
  * The Robot from Chinavasion, Android 1.5 (armv4)
  * All armv4 based devices
+
+= Known instability with the audio driver =
  * Samsung Galaxy i7500 (android 1.5) - deadlocks are presents. (especially with dialtone) 
- * Archos 5IT (android 1.6) (the legacy library is use to bypass jni errors.)
+ * Galaxy S
+ * Sony X10 / X10 mini
+ * Motorola Backflip
+ * Motorola DEXT
