@@ -27,7 +27,8 @@ Here are tested and running devices :
  * All armv4 based devices
 
 = Known instability due to the audio driver =
- * Samsung Galaxy i7500 (android 1.5) - deadlocks are presents. (especially with dialtone) 
+_There is an ongoing work to solve this issue_
+ * Samsung Galaxy i7500
  * Galaxy S
  * Sony X10 / X10 mini
  * Motorola Backflip
