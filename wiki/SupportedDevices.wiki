@@ -26,7 +26,7 @@ Here are tested and running devices :
  * The Robot from Chinavasion, Android 1.5 (armv4)
  * All armv4 based devices
 
-= Known instability with the audio driver =
+= Known instability due to the audio driver =
  * Samsung Galaxy i7500 (android 1.5) - deadlocks are presents. (especially with dialtone) 
  * Galaxy S
  * Sony X10 / X10 mini
