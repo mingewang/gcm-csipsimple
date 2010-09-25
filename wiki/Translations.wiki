@@ -1,7 +1,7 @@
 #summary Translations information.
 #labels Phase-Implementation
 
-= Introduction =
+= How can I help? =
 If you want to help us to translate CSipSimple in your language, here's the good place.
 
 We use miracle2k's android2po tool and the Roseta project from Launchpad to translate CSipSimple. That's more user friendly than plain xml files!
