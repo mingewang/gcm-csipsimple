@@ -29,3 +29,11 @@ You are now in the tool. Using this tool you can :
  * Auto answer : if you want to automatically answer to some phone number, you can add a rule here. It's useful if you are using some call callback feature from your provider.
 
 ----
+
+= The other party can hear me but I can not hear them =
+It's probably a NAT problem. Some networks are NATed network. It means that there is some network equipment between you and the rest of the world that "hide" your IP address to the rest and the world. It results that your SIP client will not announce properly your IP to sip server and other party. So when a call is placed and media stream is established, the remote party doesn't know where to send its stream and you can't hear him.
+To solve this problem there is some techniques in SIP :
+Go on setting Settings > Network - Tick "Use Stun" and fill a stun server on the field bellow. You can use whatever stun server you want it's not necessarily linked to your provider. See http://www.voip-info.org/wiki/view/STUN Public Stun server section to know what server you could use freely. 
+You can also try to use ICE, but most of the time STUN solve the problem.
+
+If it doesn't help, there is maybe a problem with your device (on some device, manufacturers does strange things with the android audio stack). So report the problem on the issue section.
