@@ -3,16 +3,16 @@
 
 = Last dev version =
 
-* Samsung Galaxy S (and I9000) fix for speakerphone
-* IPv6 basic support (doesn't support dns resolution but if you set registrar and proxy with ipv6 address should be fine - see issue 265)
-* HTC Evo tweak for the PSP wifi mode bug from HTC (already fixed for N1 & Desire, but default setting to tweak was not set for Evo : see issue 277)
-* Sipgate & PlanetPhone wizard
-* DTMF Info option in settings
-* DNS SRV support
-* Default stun server (thx goes to ekiga guys that are agree to let us use their stun server as default parameter)
-* Armv4 support
-* New translations (thanks goes to translators that spend time on Launchpad to translate the project !! when written : bg, de, fr, hu, it, nl, pt, ru)
-* Bluetooth for 2.2.1 
+ * Samsung Galaxy S (and I9000) fix for speakerphone
+ * IPv6 basic support (doesn't support dns resolution but if you set registrar and proxy with ipv6 address should be fine - see issue 265)
+ * HTC Evo tweak for the PSP wifi mode bug from HTC (already fixed for N1 & Desire, but default setting to tweak was not set for Evo : see issue 277)
+ * Sipgate & PlanetPhone wizard
+ * DTMF Info option in settings
+ * DNS SRV support
+ * Default stun server (thx goes to ekiga guys that are agree to let us use their stun server as default parameter)
+ * Armv4 support
+ * New translations (thanks goes to translators that spend time on Launchpad to translate the project !! when written : bg, de, fr, hu, it, nl, pt, ru)
+ * Bluetooth for 2.2.1 
 
 
 = 0.00-13 =
