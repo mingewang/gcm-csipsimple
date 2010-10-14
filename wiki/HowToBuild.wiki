@@ -49,7 +49,7 @@ cd pjsip_android
 
  * Launch a make (but it will generate only one target lib)
 {{{
-make APP=pjsip
+make APP=pjsip APP_PLATFORM=android-4
 }}}
 
 Congratulation you've just build the dynamic library.
