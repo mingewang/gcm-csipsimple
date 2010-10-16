@@ -1,0 +1,31 @@
+#summary Guide d'installation pour Freephonie
+#labels Deprecated
+
+= Introduction =
+
+Free est un FAI français qui fourni à ses abonnés un compte SIP lié à leur compte de téléphonie fixe.
+
+Il leur est donc possible d'utiliser leur compte SIP pour effectuer des appels aux même tarifs que ceux de leur téléphone lié à leur Freebox (à savoir gratuit vers les fixes et vers les destinations fixes de certains pays).
+
+Mais pas seulement, il est également possible de reçevoir les appels de sa ligne fixe sur son compte SIP.
+
+CSipSimple étant un logiciel supportant le protocole SIP, vous pouvez utiliser votre compte SIP sur votre mobile android.
+
+
+= Préparation de votre compte Free =
+
+Il vous faut tout d'abord activer le SIP pour votre compte freephonie.
+
+ * Connectez vous sur votre interface Free et allez dans l'interface liée à la Téléphonie :
+[http://csipsimple.googlecode.com/svn/graphics/Freephonie_1.png]
+ * Dans la *Gestion de mon compte SIP* entrez un mot de passe et cochez Service activée
+[http://csipsimple.googlecode.com/svn/graphics/Freephonie_2.png]
+Vous noterez ici qu'il y a deux façon de reçevoir les appels. Vous pouvez choisir de les reçevoir sur votre téléphone fixe connecté à votre freebox ou sur le téléphone SIP.
+
+Vous pourrez dans tous les cas utiliser votre compte SIP pour les appels sortant.
+
+Sauvegardez.
+
+= Installation de CSipSimple =
+Vous pouvez installer CSipSimple depuis l'android Market, l'AppsLib ou depuis ce site web.
+
