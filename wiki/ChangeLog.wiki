@@ -3,7 +3,10 @@
 
 = Last dev version =
 
-= 0.00-14 / 0.00-15 =
+= 0.00-15 =
+ * Disable STUN by default. If you experiment issues with audio please re-enable STUN in media settings.
+
+= 0.00-14 =
 
  * Fix force close while making a tel: call and csipsimple not started before
  * Samsung Galaxy S (and I9000) fix for speakerphone
