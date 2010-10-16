@@ -3,7 +3,7 @@
 
 = Last dev version =
 
-= 0.00-14 =
+= 0.00-14 / 0.00-15 =
 
  * Fix force close while making a tel: call and csipsimple not started before
  * Samsung Galaxy S (and I9000) fix for speakerphone
