@@ -1,5 +1,5 @@
 #summary This page explains how to build the application.
-#labels Featured,Phase-Implementation
+#labels Phase-Implementation
 
 = Introduction =
 The application has two distinct parts : 
