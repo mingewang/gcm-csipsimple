@@ -3,6 +3,8 @@
 
 = Last dev version =
 
+= 0.00-14 =
+
  * Fix force close while making a tel: call and csipsimple not started before
  * Samsung Galaxy S (and I9000) fix for speakerphone
  * IPv6 basic support (doesn't support dns resolution but if you set registrar and proxy with ipv6 address should be fine - see issue 265)
