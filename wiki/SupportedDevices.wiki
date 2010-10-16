@@ -1,5 +1,5 @@
 #summary This page give an overview of which devices and rom are tested with CSipSimple.
-#labels Featured,Phase-Deploy
+#labels Phase-Deploy
 
 = Introduction =
 
