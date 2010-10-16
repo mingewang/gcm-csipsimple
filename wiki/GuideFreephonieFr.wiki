@@ -20,6 +20,7 @@ Il vous faut tout d'abord activer le SIP pour votre compte freephonie.
 [http://csipsimple.googlecode.com/svn/graphics/Freephonie_1.png]
  * Dans la *Gestion de mon compte SIP* entrez un mot de passe et cochez Service activée
 [http://csipsimple.googlecode.com/svn/graphics/Freephonie_2.png]
+
 Vous noterez ici qu'il y a deux façon de reçevoir les appels. Vous pouvez choisir de les reçevoir sur votre téléphone fixe connecté à votre freebox ou sur le téléphone SIP.
 
 Vous pourrez dans tous les cas utiliser votre compte SIP pour les appels sortant.
@@ -28,4 +29,3 @@ Sauvegardez.
 
 = Installation de CSipSimple =
 Vous pouvez installer CSipSimple depuis l'android Market, l'AppsLib ou depuis ce site web.
-
