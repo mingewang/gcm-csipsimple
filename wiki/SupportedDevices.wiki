@@ -9,7 +9,7 @@ So it should now work on almost all devices.
 However there is some restrictions :
 
 = Known incompatibility =
- * All armv4 based devices - but... there is an experimental build on the download section http://code.google.com/p/csipsimple/downloads/detail?name=CSipSimple_0.00-13-armv4t.apk
+ * Some armv4 based devices - If you own an armv4t device and want to help us to support it, please send us the "device" name : install an application such as DeviceInfo to get this information (that's a string that allow to determine which device it's exactly).
 
 = There is also some audio routing issues =
 It can produce echo if routed to rear speaker or no sound at all.
