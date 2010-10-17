@@ -61,7 +61,7 @@ Vous devez alors atterir sur la page de création d'un compte.
  * Cliquez sur enregistrer...
  * Ca devrait s'enregistrer auprès de Freephonie cliquez sur le bouton retour pour revenir sur l'écran de numérotation.
 
-Voilà vous pouvez désormais passer des appels. Par exemple testez la boite vocale (**1)...
+Voilà vous pouvez désormais passer des appels. Par exemple testez la boite vocale (`**`1)...
 
 
 = Vous en voulez plus? =
@@ -72,7 +72,7 @@ Vous aurez noter que pour l'instant si vous utiliser la numérotation depuis une
 
 Ca serait bien de pouvoir par exemple utiliser Freephonie dès que le numéro commence par 04 par exemple, d'ignorer le choix Freephonie (et passer directement par le GSM) si ça commence par 06 et de demander pour les autres numéros....
 
-Et bien CSipSimple permet de faire ça !
+Et bien... CSipSimple permet de faire ça !
 
 Comment :
  * Ouvrez CSipSimple
@@ -85,6 +85,4 @@ Comment :
 Ca y est => Dès que vous effecturez un appel depuis les applications native android, ce compte sera ignoré des proposition qui vous seront faites.
  * Vous pouvez ajouter une autre règle !
  * "Appeler automatiquement" "Commence avec" 04 => Dès que vous effecturez un appel vers un numéro en 04 *et que votre connection data le permettra* On utilisera automatiquement le SIP !!
-
-
 
