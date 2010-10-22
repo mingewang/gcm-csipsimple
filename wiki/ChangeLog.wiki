@@ -2,6 +2,10 @@
 #labels Featured,Phase-Support
 
 = Last dev version =
+ * Missed call notification
+ * Add some wizards and refactor all wizard engine
+ * Improve audio driver for low cpu devices and 1.6 and under devices.
+ 
 
 = 0.00-15 =
  * Disable STUN by default. If you experiment issues with audio please re-enable STUN in media settings.
