@@ -1,6 +1,7 @@
 #summary Some frequently asked question are listed here
 #labels Featured,Phase-Support
 
+= Summary =
 <wiki:toc max_depth="1" />
 
 ----
@@ -19,7 +20,7 @@ However, if you choose "Only for outgoing"... Close option will appear in the me
 ----
 
 = When integrated to android, I don't want some number to be handled by SIP =
-= I want to automatically add prefix/rewrite some numbers = 
+== I want to automatically add prefix/rewrite some numbers == 
 There is a powerful rewriting/filter/auto-answer tool in CSipSimple.
 To access this tool, go on the account on which you want to apply things. Press menu button and choose "Filters".
 You are now in the tool. Using this tool you can :
