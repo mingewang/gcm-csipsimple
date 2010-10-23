@@ -19,18 +19,6 @@ However, if you choose "Only for outgoing"... Close option will appear in the me
 
 ----
 
-= When integrated to android, I don't want some number to be handled by SIP =
-== I want to automatically add prefix/rewrite some numbers == 
-There is a powerful rewriting/filter/auto-answer tool in CSipSimple.
-To access this tool, go on the account on which you want to apply things. Press menu button and choose "Filters".
-You are now in the tool. Using this tool you can :
- * Rewrite numbers : for example add prefix, suffix, completely replace the number by another one, or apply a custom regexp - if you don't know what a regexp is, don't use it ;).
- * Don't call some numbers : if you don't want some number to be managed by this account, for example call to other mobiles phone etc, you can add an exclude rule. Then when you'll dial *from native dialer/contact app* if the phone number match this rule, this sip account will not be proposed in the list of choices you have and if there is no SIP account that can handle this number, it will automatically use Mobile without asking you anything
- * Force call some numbers using this account : same thing that the last point, but here it will not exclude, but force the call to use this account and will not ask you for anything.
- * Auto answer : if you want to automatically answer to some phone number, you can add a rule here. It's useful if you are using some call callback feature from your provider.
-
-----
-
 = The other party can hear me but I can not hear them =
 It's probably a NAT problem. Some networks are NATed network. It means that there is some network equipment between you and the rest of the world that "hide" your IP address to the rest and the world. It results that your SIP client will not announce properly your IP to sip server and other party. So when a call is placed and media stream is established, the remote party doesn't know where to send its stream and you can't hear him.
 
@@ -43,3 +31,15 @@ CSipSimple use by default a stun server, if you want to use another STUN server 
 You can also try to use ICE, but most of the time STUN solve the problem.
 
 If it doesn't help, there is maybe a problem with your device (on some device, manufacturers does strange things with the android audio stack). So report the problem on the issue section.
+
+----
+
+= When integrated to android, I don't want some number to be handled by SIP =
+== I want to automatically add prefix/rewrite some numbers == 
+There is a powerful rewriting/filter/auto-answer tool in CSipSimple.
+To access this tool, go on the account on which you want to apply things. Press menu button and choose "Filters".
+You are now in the tool. Using this tool you can :
+ * Rewrite numbers : for example add prefix, suffix, completely replace the number by another one, or apply a custom regexp - if you don't know what a regexp is, don't use it ;).
+ * Don't call some numbers : if you don't want some number to be managed by this account, for example call to other mobiles phone etc, you can add an exclude rule. Then when you'll dial *from native dialer/contact app* if the phone number match this rule, this sip account will not be proposed in the list of choices you have and if there is no SIP account that can handle this number, it will automatically use Mobile without asking you anything
+ * Force call some numbers using this account : same thing that the last point, but here it will not exclude, but force the call to use this account and will not ask you for anything.
+ * Auto answer : if you want to automatically answer to some phone number, you can add a rule here. It's useful if you are using some call callback feature from your provider.
