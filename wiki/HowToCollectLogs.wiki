@@ -19,7 +19,7 @@ You can now reproduce your bug (if possible) logs will now be recorded.
 = How to get back the logs and what to do with the logs =
 
 A good idea is to *NOT* share your logs on the issue section since it can contains privacy information that should not be shared.
-For now you can directly send it to the main contributor (r3gis.3r at gmail dot com). Or ask in your issue who you should send your log to.
+For now you can directly send it to the main contributor (developers [ at ] csipsimple [dot] com). Or ask in your issue who you should send your log to.
 
 To collect and send your logs, you can install and run log-collector : http://code.google.com/p/android-log-collector/ (available both on the market and on their website).
 Log-collector will ask you how you want to send logs, choose mail and send it to the right contact.
