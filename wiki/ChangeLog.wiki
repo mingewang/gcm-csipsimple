@@ -2,9 +2,11 @@
 #labels Featured,Phase-Support
 
 = Last dev version =
+ * Call recording feature ! (use menu on In Call screen)
  * Missed call notification
  * Add some wizards and refactor all wizard engine
  * Improve audio driver for low cpu devices and 1.6 and under devices.
+ * Added soft amplification sliders while in call (stands for volume for devices that doesn't support android audio volume, and is available to all others users if they want to increase in call volume (speaker and mic) more strongly)
  
 
 = 0.00-15 =
