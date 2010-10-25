@@ -1,6 +1,8 @@
 #summary How to provide logs to developpers
 #labels Phase-Support
 
+== WARNING : In current devs builds you have to switch to expert settings mode to enable logging ... I will provide soon an easier way to collect logs.... ==
+
 = Introduction =
 
 CSipSimple is still under heavy development. If you notice a force close or an error while running the app. 
