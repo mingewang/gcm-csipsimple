@@ -7,6 +7,9 @@
  * Add some wizards and refactor all wizard engine
  * Improve audio driver for low cpu devices and 1.6 and under devices.
  * Added soft amplification sliders while in call (stands for volume for devices that doesn't support android audio volume, and is available to all others users if they want to increase in call volume (speaker and mic) more strongly)
+ * Improve help / faq
+ * Make quit feature easier to understand by mainstream users
+ * Start accessibility task force
  
 
 = 0.00-15 =
