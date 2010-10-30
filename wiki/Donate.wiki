@@ -25,3 +25,4 @@ However, if you have not enough time to spent and you still want to contribute, 
 || 10/2010 || andstrat ||
 || 10/2010 || [http://solo.dc3.com/ Bob Denny] ||
 || 10/2010 || [http://restruct.org/ Michael van Schaik] ||
+|| 10/2010 || dgouglev ||
