@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">CSipSimple</string>
+  <string name="unable_to_download_file">Impossibile scaricare file</string>
+  <string name="connection_not_valid">La rete selezionata non è disponibile (attivare il WIFI o modificare le preferenze per utilizzare 3G)</string>
+  <string name="invalid_sip_uri">L\'uri sip non è valido per la chiamata</string>
+  <string name="accounts">Account</string>
+  <string name="save">Salva</string>
+  <string name="cancel">Cancella</string>
+  <string name="activate_account">Attiva account</string>
+  <string name="deactivate_account">Disattiva account</string>
+  <string name="delete_account">Cancella account</string>
+  <string name="modify_account">Modifica account</string>
+  <string name="add_account">Aggiungi account</string>
+  <string name="choose_wizard">Wizard di scelta</string>
+  <string name="use">Usa :</string>
+  <string name="use_pstn">Usa GSM</string>
+  <string name="ongoing_call">Chiamate in uscita</string>
+  <string name="missed_call">Chiamata persa</string>
+  <string name="recentCalls_empty">Nessun log delle chiamate</string>
+  <string name="filters">Filtri</string>
+  <string name="add_filter">Aggiungi filtro / riscrivi regola</string>
+  <string name="delete_filter">Cancella filtro</string>
+  <string name="callLog_delete_entry">Elimina questa chiamata</string>
+  <string name="callLog_delete_all">Elimina tutte le chiamate</string>
+  <string name="callLog_delDialog_title">Elimina il log delle chiamate</string>
+  <string name="callLog_delDialog_message">Se sicuro di voler eliminare tutte le chiamate dal log?</string>
+  <string name="callLog_delDialog_yes">Si</string>
+  <string name="callLog_delDialog_no">No</string>
+  <string name="gsm">Mobile</string>
+  <string name="dial_tab_name_text">Componi</string>
+  <string name="calllog_tab_name_text">Log chiamate</string>
+  <string name="menu_quit_text">Esci</string>
+  <string name="service_ticker_registered_text">SIP Registrato</string>
+  <string name="outgoing_call_chooser_call_text">Chiama</string>
+  <string name="reorder">Riordina</string>
+</resources>
