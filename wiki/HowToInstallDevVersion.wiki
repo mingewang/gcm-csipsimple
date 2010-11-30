@@ -22,3 +22,9 @@
 
 That's it. CSipSimple dev version is installed.
 If you need to report logs on it, follow instructions here : HowToCollectLogs
+
+
+= Keep up to date =
+Using development version you'll not be automatically upgraded from market. As consequence you should manually install newer dev version.
+A little tip to remain up to date is to subscribe the download section rss feed :
+[http://code.google.com/feeds/p/csipsimple/downloads/basic]
