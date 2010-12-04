@@ -21,13 +21,14 @@ Create a new directory for the project.
 
 = Build the pjsip library for android =
 
-I have not committed into the svn the compiler, linker etc for android. So you'll have to get them from the official ndk and then to include them into the project.
+I have not committed into the svn the compiler, linker etc for android. It doesn't come any more from the official Google NDK but from an alternate NDK that allow us to build ZRTP lib (and in the future any third party cpp lib). So you have to get the Crystax NDK  
+(For reference [http://www.crystax.net/android/ndk-r4.php crystax NDK])
 
  * First of all get the ndk and unzip
 {{{
-wget http://dl.google.com/android/ndk/android-ndk-r4-linux-x86.zip
-unzip android-ndk-r4-linux-x86.zip
-rm android-ndk-r4-linux-x86.zip
+wget http://www.crystax.net/data/android-ndk-r4-linux-x86-crystax-4.tar.bz2
+tar -xvf android-ndk-r4-linux-x86-crystax-4.tar.bz2
+rm android-ndk-r4-linux-x86-crystax-4.tar.bz2
 }}}
 
  * Then checkout the pjsip part of the project :
@@ -37,9 +38,9 @@ svn checkout http://csipsimple.googlecode.com/svn/trunk/pjsip_android pjsip_andr
 
  * Now we have to add the ndk toolchains into the pjsip_android project ndk.
 {{{
-cp -r android-ndk-r4/build/prebuilt pjsip_android/build/
+cp -r android-ndk-r4-crystax/build/prebuilt pjsip_android/build/
 }}}
-_ Note : You can now delete the android-ndk-r4 folder _
+_ Note : You can now delete the android-ndk-r4-crystax folder _
 
 
  * Go into the pjsip_android directory:
@@ -49,14 +50,14 @@ cd pjsip_android
 
  * Launch a make (but it will generate only one target lib)
 {{{
-make APP=pjsip APP_PLATFORM=android-4
+make APP=pjsip
 }}}
 
 Congratulation you've just build the dynamic library.
 You can find your build under 
 
 {{{
-apps/pjsip/project/libs/armeabi/android-3
+../CSipSimple/libs/armeabi & armeabi-v7a
 }}}
 
 
